@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		0F8F1B4C54EE59FA1E4CD72C /* Pods_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F321312242ABD456703782 /* Pods_Chat.framework */; };
 		505B11AF21755D0D000730EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 505B11AE21755D0D000730EA /* GoogleService-Info.plist */; };
-		505B11B421756593000730EA /* CustomerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505B11B021756593000730EA /* CustomerCell.swift */; };
-		505B11B521756593000730EA /* CustomerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505B11B221756593000730EA /* CustomerCell.xib */; };
-		505B11B72175A619000730EA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505B11B62175A619000730EA /* Message.swift */; };
+		50812753217832D100608C19 /* MystoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50812752217832D100608C19 /* MystoryTableViewController.swift */; };
+		508127582178721E00608C19 /* CatergoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508127572178721E00608C19 /* CatergoryTableViewController.swift */; };
+		50B8558F217BFE7C0048088F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8558E217BFE7C0048088F /* Category.swift */; };
+		50B85591217BFE840048088F /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B85590217BFE840048088F /* Story.swift */; };
+		50B85595217D112A0048088F /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B85594217D112A0048088F /* SwipeTableViewController.swift */; };
 		50E29E2921726781001C8084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E29E2821726781001C8084 /* AppDelegate.swift */; };
-		50E29E2B21726781001C8084 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E29E2A21726781001C8084 /* ChatViewController.swift */; };
 		50E29E2E21726781001C8084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E29E2C21726781001C8084 /* Main.storyboard */; };
 		50E29E3021726785001C8084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E29E2F21726785001C8084 /* Assets.xcassets */; };
 		50E29E3321726785001C8084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E29E3121726785001C8084 /* LaunchScreen.storyboard */; };
@@ -25,12 +26,13 @@
 /* Begin PBXFileReference section */
 		18A34D36ACFF56A0F6F751D6 /* Pods-Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat/Pods-Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		505B11AE21755D0D000730EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		505B11B121756593000730EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/CustomerCell.swift; sourceTree = "<group>"; };
-		505B11B321756593000730EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CustomerCell.xib; sourceTree = "<group>"; };
-		505B11B62175A619000730EA /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		50812752217832D100608C19 /* MystoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MystoryTableViewController.swift; sourceTree = "<group>"; };
+		508127572178721E00608C19 /* CatergoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatergoryTableViewController.swift; sourceTree = "<group>"; };
+		50B8558E217BFE7C0048088F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		50B85590217BFE840048088F /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		50B85594217D112A0048088F /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		50E29E2521726781001C8084 /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E29E2821726781001C8084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50E29E2A21726781001C8084 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		50E29E2D21726781001C8084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50E29E2F21726785001C8084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50E29E3221726785001C8084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,10 +107,12 @@
 			isa = PBXGroup;
 			children = (
 				50E29E2821726781001C8084 /* AppDelegate.swift */,
-				50E29E2A21726781001C8084 /* ChatViewController.swift */,
 				50E29E3A21726840001C8084 /* LoginViewController.swift */,
 				50E29E41217268DB001C8084 /* RegisterViewController.swift */,
 				50E29E432172691C001C8084 /* WelcomeViewController.swift */,
+				50812752217832D100608C19 /* MystoryTableViewController.swift */,
+				508127572178721E00608C19 /* CatergoryTableViewController.swift */,
+				50B85594217D112A0048088F /* SwipeTableViewController.swift */,
 			);
 			name = Controller;
 			path = "New Group1";
@@ -119,8 +123,6 @@
 			children = (
 				50E29E2C21726781001C8084 /* Main.storyboard */,
 				50E29E3121726785001C8084 /* LaunchScreen.storyboard */,
-				505B11B021756593000730EA /* CustomerCell.swift */,
-				505B11B221756593000730EA /* CustomerCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -128,7 +130,8 @@
 		50E29E4C21726C9B001C8084 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				505B11B62175A619000730EA /* Message.swift */,
+				50B8558E217BFE7C0048088F /* Category.swift */,
+				50B85590217BFE840048088F /* Story.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,7 +208,6 @@
 				50E29E3321726785001C8084 /* LaunchScreen.storyboard in Resources */,
 				505B11AF21755D0D000730EA /* GoogleService-Info.plist in Resources */,
 				50E29E3021726785001C8084 /* Assets.xcassets in Resources */,
-				505B11B521756593000730EA /* CustomerCell.xib in Resources */,
 				50E29E2E21726781001C8084 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +227,10 @@
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -236,7 +241,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -275,34 +283,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				50E29E3B21726840001C8084 /* LoginViewController.swift in Sources */,
-				505B11B421756593000730EA /* CustomerCell.swift in Sources */,
+				50812753217832D100608C19 /* MystoryTableViewController.swift in Sources */,
 				50E29E442172691C001C8084 /* WelcomeViewController.swift in Sources */,
-				50E29E2B21726781001C8084 /* ChatViewController.swift in Sources */,
+				508127582178721E00608C19 /* CatergoryTableViewController.swift in Sources */,
+				50B85595217D112A0048088F /* SwipeTableViewController.swift in Sources */,
+				50B8558F217BFE7C0048088F /* Category.swift in Sources */,
 				50E29E2921726781001C8084 /* AppDelegate.swift in Sources */,
+				50B85591217BFE840048088F /* Story.swift in Sources */,
 				50E29E42217268DB001C8084 /* RegisterViewController.swift in Sources */,
-				505B11B72175A619000730EA /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		505B11B021756593000730EA /* CustomerCell.swift */ = {
-			isa = PBXVariantGroup;
-			children = (
-				505B11B121756593000730EA /* Base */,
-			);
-			name = CustomerCell.swift;
-			sourceTree = "<group>";
-		};
-		505B11B221756593000730EA /* CustomerCell.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				505B11B321756593000730EA /* Base */,
-			);
-			name = CustomerCell.xib;
-			sourceTree = "<group>";
-		};
 		50E29E2C21726781001C8084 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
